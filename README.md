@@ -1,10 +1,12 @@
 # E-Commerce-NLP-Project
-The following capstone project was part of satisfying the requirements of Simplilearn's AI master program. 
+
 Steps includded Machine learning modelling, NLP, Sentimental analysis, neural networks, clustering, topic modelling
 
 # Problem Statement
 •	 Amazon is an online shopping website that now caters to millions of people everywhere. Over 34,000 consumer reviews for Amazon brand products like Kindle, Fire TV Stick and more are provided.
+
 •	 The dataset has attributes like brand, categories, primary categories, reviews.title, reviews.text, and the sentiment. Sentiment is a categorical variable with three levels "Positive", "Negative“, and "Neutral". For a given unseen data, the sentiment needs to be predicted.
+
 •	 You are required to predict Sentiment or Satisfaction of a purchase based on multiple features and review text.
 
 # Project Task: Part 1
