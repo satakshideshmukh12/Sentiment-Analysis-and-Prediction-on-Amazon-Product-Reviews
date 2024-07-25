@@ -12,12 +12,10 @@ Steps includded Machine learning modelling, NLP, Sentimental analysis, neural ne
 # Project Task: Part 1
 Class Imbalance Problem:
 1.	Perform an EDA on the dataset.
-2.	a)  See what a positive, negative, and neutral review looks like
-3.	
-4.	b)  Check the class count for each class. It’s a class imbalance problem.
-5.	
-6.	Convert the reviews in Tf-Idf score.
-7.	Run multinomial Naive Bayes classifier. Everything will be classified as positive because of the class imbalance.
+2.	See what a positive, negative, and neutral review looks like
+3.	Check the class count for each class. It’s a class imbalance problem.
+4.	Convert the reviews in Tf-Idf score.
+5.	Run multinomial Naive Bayes classifier. Everything will be classified as positive because of the class imbalance.
 
 # Project Task: Part 2
 Tackling Class Imbalance Problem:
@@ -34,16 +32,16 @@ Model Selection:
 # Project Task: Part 4
 Applying LSTM:
 1.	Use LSTM for the previous problem (use parameters of LSTM like top-word, embedding-length, Dropout, epochs, number of layers, etc.)
-Hint: Another variation of LSTM, GRU (Gated Recurrent Units) can be tried as well.
+ Another variation of LSTM, GRU (Gated Recurrent Units) can be tried as well.
 2.	Compare the accuracy of neural nets with traditional ML based algorithms.
 3.	Find the best setting of LSTM (Neural Net) and GRU that can best classify the reviews as positive, negative, and neutral.
 
 # Optional tasks Part 4 
 
-Hint: Use techniques like Grid Search, Cross-Validation and Random Search
+ Use techniques like Grid Search, Cross-Validation and Random Search
 Topic Modeling:
 1.	Cluster similar reviews.
 Note: Some reviews may talk about the device as a gift-option. Other reviews may be about product looks and some may highlight about its battery and performance. Try naming the clusters.
 2.	Perform Topic modeling
-Hint: Use scikit-learn provided Latent Dirchlette Allocation (LDA) and Non-Negative Matrix Factorization (NMF).
+ Use scikit-learn provided Latent Dirchlette Allocation (LDA) and Non-Negative Matrix Factorization (NMF).
 
